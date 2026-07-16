@@ -20,17 +20,60 @@
       <h1>每日学习与日报复盘</h1>
       <p class="lead">先看高价值资料，再决定进入知识卡片、选题池、输出成果还是忽略。真实复盘仍写回 Obsidian。</p>
     </div>
-    <p class="hero-meta">材料待补充</p>
+    <p class="hero-meta">页面已生成</p>
   </section>
-  <div class="work-panel"><div><p class="label">今日一句话</p><h2>今天的复盘材料尚未生成</h2></div><div class="metric-strip"><div class="metric"><span>学习</span><strong>0</strong></div><div class="metric"><span>项目</span><strong>0</strong></div><div class="metric"><span>输出</span><strong>0</strong></div><div class="metric"><span>实习准备</span><strong>0</strong></div></div><div class="next-action"><span>明天最小行动</span><strong>在 Obsidian 每日简报中补一条明天最小行动</strong></div></div><section class="section">
+  <div class="work-panel"><div><p class="label">今日一句话</p><h2>Hugging Face Transformers v5.14.0 新增 Inkling 975B 模型</h2></div><div class="metric-strip"><div class="metric"><span>学习</span><strong>0</strong></div><div class="metric"><span>项目</span><strong>0</strong></div><div class="metric"><span>输出</span><strong>0</strong></div><div class="metric"><span>实习准备</span><strong>0</strong></div></div><div class="next-action"><span>明天最小行动</span><strong>阅读并分流：Hugging Face Transformers v5.14.0 新增 Inkling 975B 模型</strong></div></div><section class="section">
   <div class="section-head"><h2>今日 3 条高价值资料</h2></div>
-  <div class="empty">当天 Horizon 日报尚未入库。页面会保留占位，不补写事实。</div>
+  <div class="item-list"><article class="item"><div><span class="score">9/10</span><h3><a href="https://github.com/huggingface/transformers/releases/tag/v5.14.0">Hugging Face Transformers v5.14.0 新增 Inkling 975B 模型</a></h3></div><p>Hugging Face Transformers v5.14.0 新增了对 Thinking Machines Lab 的 Inkling 模型（975B 参数多模态混合专家模型）的支持，以及 TIPSv2 和 TIPSv2 DPT 模型。该版本还包括 GPTNeoX 和 GPTBigCode 的破坏性变更、内核改进以及多 token 预测解码等新生成特性。 Inkling 是最大的开放权重多模态模型之一，支持文本、图像和音频输入，…</p></article><article class="item"><div><span class="score">9/10</span><h3><a href="https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything">xAI 在数据上传争议后开源 Grok Build</a></h3></div><p>xAI 在用户发现 grok CLI 工具会将整个目录（包括 SSH 密钥和密码数据库等敏感文件）上传到 xAI 云端后，以 Apache 2.0 许可证发布了整个 Grok Build 代码库。 此事件凸显了 AI 驱动开发工具中的关键数据隐私风险，并为透明度树立了先例；xAI 的开源举措旨在重建信任，并允许社区审计和分叉代码。 该代码库包含 844,530 行 Rust 代码，其中仅约 3% 为第三方依赖，并包含一个使用 Unic…</p></article><article class="item"><div><span class="score">8/10</span><h3><a href="https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu/">在 13 年前的 Xeon 上以 5 tokens/秒运行 Gemma 4 26B</a></h3></div><p>一篇博客文章展示了在没有 GPU 的 13 年前双路 Xeon 服务器上，以每秒 5 个 token 的速度运行 Google 的 Gemma 4 26B（一种混合专家模型，活跃参数为 4B）。 这一成就挑战了大型语言模型需要现代 GPU 的假设，可能降低在旧硬件上进行本地推理的门槛，并引发了关于与云端推理相比成本效益的讨论。 Gemma 4 26B 是一种多模态 MoE 模型，每个 token 仅激活 4B 参数，从而实现了高效的 …</p></article></div>
 </section><section class="section">
   <div class="section-head"><h2>S/A/B/C/D 分流建议</h2></div>
-  <div class="empty">还没有可筛选资料。先等待 Horizon 日报或每日简报生成。</div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>等级</th><th>资料</th><th>去向</th><th>理由</th></tr></thead>
+    <tbody><tr>
+          <td><span class="grade grade-s">S</span></td>
+          <td><a href="https://github.com/huggingface/transformers/releases/tag/v5.14.0">Hugging Face Transformers v5.14.0 新增 Inkling 975B 模型</a><span class="muted"> 9/10</span></td>
+          <td>优先研究</td>
+          <td>贴近 AI 应用工程、RAG/Agent、实习项目或可输出主题。</td>
+        </tr><tr>
+          <td><span class="grade grade-a">A</span></td>
+          <td><a href="https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything">xAI 在数据上传争议后开源 Grok Build</a><span class="muted"> 9/10</span></td>
+          <td>优先研究</td>
+          <td>重要度高，但需人工判断是否服务当前学习主线。</td>
+        </tr><tr>
+          <td><span class="grade grade-a">A</span></td>
+          <td><a href="https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu/">在 13 年前的 Xeon 上以 5 tokens/秒运行 Gemma 4 26B</a><span class="muted"> 8/10</span></td>
+          <td>优先研究</td>
+          <td>贴近 AI 应用工程、RAG/Agent、实习项目或可输出主题。</td>
+        </tr><tr>
+          <td><span class="grade grade-b">B</span></td>
+          <td><a href="https://openai.com/index/unlocking-self-improvement-gpt-red">OpenAI 的 GPT-Red：通过自对弈提升 AI 安全性</a><span class="muted"> 8/10</span></td>
+          <td>背景阅读</td>
+          <td>可作为背景资料保留，暂不抢占本周主线。</td>
+        </tr><tr>
+          <td><span class="grade grade-a">A</span></td>
+          <td><a href="https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything">Claude 被利用 web_fetch 漏洞泄露隐私数据</a><span class="muted"> 8/10</span></td>
+          <td>优先研究</td>
+          <td>贴近 AI 应用工程、RAG/Agent、实习项目或可输出主题。</td>
+        </tr><tr>
+          <td><span class="grade grade-b">B</span></td>
+          <td><a href="https://arxiv.org/abs/2607.13037">OriginBlame：AI 训练数据的记录与令牌级溯源</a><span class="muted"> 8/10</span></td>
+          <td>背景阅读</td>
+          <td>可作为背景资料保留，暂不抢占本周主线。</td>
+        </tr><tr>
+          <td><span class="grade grade-a">A</span></td>
+          <td><a href="https://arxiv.org/abs/2607.13049">SPINE：用智能体框架弥合机器人部署鸿沟</a><span class="muted"> 8/10</span></td>
+          <td>优先研究</td>
+          <td>贴近 AI 应用工程、RAG/Agent、实习项目或可输出主题。</td>
+        </tr><tr>
+          <td><span class="grade grade-a">A</span></td>
+          <td><a href="https://arxiv.org/abs/2607.13069">LLM 思维链前提依赖的黑盒测试方法</a><span class="muted"> 8/10</span></td>
+          <td>优先研究</td>
+          <td>贴近 AI 应用工程、RAG/Agent、实习项目或可输出主题。</td>
+        </tr></tbody>
+  </table></div>
 </section><section class="section">
   <div class="section-head"><h2>Obsidian 复盘与证据</h2></div>
-  <div class="empty">每日简报还没有填写。建议回到 Obsidian 补：今天最重要 3 条、进入知识库、明天继续跟进。</div>
+  <div class="empty">每日简报还没有填写。建议回到 Obsidian 补：今天最重要 3 条、进入知识库、明天继续跟进。</div><div class="source-row"><span>Horizon 日报</span></div>
 </section><section class="section">
   <div class="section-head"><h2>当天更新过的学习笔记</h2></div>
   <div class="empty">公开版不包含私人 Obsidian 笔记路径。</div>
