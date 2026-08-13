@@ -20,17 +20,60 @@
       <h1>每日学习与日报复盘</h1>
       <p class="lead">先看高价值资料，再决定进入知识卡片、选题池、输出成果还是忽略。真实复盘仍写回 Obsidian。</p>
     </div>
-    <p class="hero-meta">材料待补充</p>
+    <p class="hero-meta">页面已生成</p>
   </section>
-  <div class="work-panel"><div><p class="label">今日一句话</p><h2>今天的复盘材料尚未生成</h2></div><div class="metric-strip"><div class="metric"><span>学习</span><strong>0</strong></div><div class="metric"><span>项目</span><strong>0</strong></div><div class="metric"><span>输出</span><strong>0</strong></div><div class="metric"><span>实习准备</span><strong>0</strong></div></div><div class="next-action"><span>明天最小行动</span><strong>在 Obsidian 每日简报中补一条明天最小行动</strong></div></div><section class="section">
+  <div class="work-panel"><div><p class="label">今日一句话</p><h2>Tailscale 发现存在 16 年的 SQLite WAL 重置竞态条件</h2></div><div class="metric-strip"><div class="metric"><span>学习</span><strong>0</strong></div><div class="metric"><span>项目</span><strong>0</strong></div><div class="metric"><span>输出</span><strong>0</strong></div><div class="metric"><span>实习准备</span><strong>0</strong></div></div><div class="next-action"><span>明天最小行动</span><strong>阅读并分流：Tailscale 发现存在 16 年的 SQLite WAL 重置竞态条件</strong></div></div><section class="section">
   <div class="section-head"><h2>今日 3 条高价值资料</h2></div>
-  <div class="empty">当天 Horizon 日报尚未入库。页面会保留占位，不补写事实。</div>
+  <div class="item-list"><article class="item"><div><span class="score">9/10</span><h3><a href="https://tailscale.com/blog/sqlite-wal-reset-bug">Tailscale 发现存在 16 年的 SQLite WAL 重置竞态条件</a></h3></div><p>Tailscale 发布了一篇详细的复盘文章，讲述了一个存在 16 年的 SQLite WAL 重置竞态条件，该问题导致其控制平面数据库损坏。他们与 SQLite 开发者合作，隔离并修复了该 bug，修复版本为 SQLite 3.51.3。 该 bug 影响了一个广泛使用的嵌入式数据库，此次调查凸显了资助开源调试工具的价值。同时，它也展示了微妙的并发问题如何能潜伏多年，影响生产系统的可靠性。 该竞态条件由频繁的 WAL 检查点触发，修…</p></article><article class="item"><div><span class="score">9/10</span><h3><a href="https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B">Qwen3.8-2.4T-A95B：大规模 MoE 模型发布</a></h3></div><p>Qwen 发布了 Qwen3.8-2.4T-A95B，这是一个大规模稀疏混合专家（MoE）模型，总参数达 2.4 万亿，激活参数为 950 亿。它是 Qwen3.8-Max 的开源权重版本，提供 BF16 和 FP8 两种格式。 此次发布将接近前沿的能力带入开源生态系统，其性能声称可与 Opus 4.5 和 Fable 5 等顶级模型相媲美。它使研究人员和开发者能够在自己的硬件上运行最先进的 AI，可能使先进 AI 的获取更加民主化。…</p></article><article class="item"><div><span class="score">8/10</span><h3><a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxNY3R3WnUyejNHdDNNLTI5ZWlqc01BSlNvdzdJRnczZ3JTQkF1c3pxaWdOVTZBSlpKNjFfdE1DUFdQcS1OQklQTkpHNE4yQTNHZWo3VVZveXg0ZjdnSnN3QklJQW9VNnVYQzZUZXFubkt6V1RjaXMxQjVXOXZEcU1QV2ktdE5heGNrMzlXb1ZlVlRIY1RvZnFnMC1QOFRkeGFBRUZodXRhRkR2OXRrbG1oMk5Baw?oc=5">台湾报告上月遭 AI 驱动黑客攻击</a></h3></div><p>台湾宣布上月遭到一场由人工智能驱动的黑客攻击，路透社对此进行了报道。此次攻击凸显了人工智能在网络攻击中针对政府机构的日益广泛使用。 这一事件凸显了人工智能驱动的网络攻击日益增长的威胁，此类攻击可能更快、更复杂，对国家安全构成重大风险。同时，它也加剧了地缘政治紧张局势，并强调了采取先进防御措施的必要性。 据报道，该活动涉及人工智能辅助技术，但具体方法尚未披露。专家警告称，尽管人工智能增强了攻击能力，但人为参与仍然至关重要，正如安全研究员…</p></article></div>
 </section><section class="section">
   <div class="section-head"><h2>S/A/B/C/D 分流建议</h2></div>
-  <div class="empty">还没有可筛选资料。先等待 Horizon 日报或每日简报生成。</div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>等级</th><th>资料</th><th>去向</th><th>理由</th></tr></thead>
+    <tbody><tr>
+          <td><span class="grade grade-a">A</span></td>
+          <td><a href="https://tailscale.com/blog/sqlite-wal-reset-bug">Tailscale 发现存在 16 年的 SQLite WAL 重置竞态条件</a><span class="muted"> 9/10</span></td>
+          <td>优先研究</td>
+          <td>重要度高，但需人工判断是否服务当前学习主线。</td>
+        </tr><tr>
+          <td><span class="grade grade-s">S</span></td>
+          <td><a href="https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B">Qwen3.8-2.4T-A95B：大规模 MoE 模型发布</a><span class="muted"> 9/10</span></td>
+          <td>优先研究</td>
+          <td>贴近 AI 应用工程、RAG/Agent、实习项目或可输出主题。</td>
+        </tr><tr>
+          <td><span class="grade grade-b">B</span></td>
+          <td><a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxNY3R3WnUyejNHdDNNLTI5ZWlqc01BSlNvdzdJRnczZ3JTQkF1c3pxaWdOVTZBSlpKNjFfdE1DUFdQcS1OQklQTkpHNE4yQTNHZWo3VVZveXg0ZjdnSnN3QklJQW9VNnVYQzZUZXFubkt6V1RjaXMxQjVXOXZEcU1QV2ktdE5heGNrMzlXb1ZlVlRIY1RvZnFnMC1QOFRkeGFBRUZodXRhRkR2OXRrbG1oMk5Baw?oc=5">台湾报告上月遭 AI 驱动黑客攻击</a><span class="muted"> 8/10</span></td>
+          <td>背景阅读</td>
+          <td>可作为背景资料保留，暂不抢占本周主线。</td>
+        </tr><tr>
+          <td><span class="grade grade-a">A</span></td>
+          <td><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOdmlEeWEwclNnNlUzYVVSWGFtaVhuMU5EV2FsTlU5cTM5dEFWZ3JOeDhLZ2RRM3V0RlB6VDNlclR0eVh4a2o2RE90b1YtQkhCbUUtX2dPTTAwRlhBeW9tQ2NLYUs5QnNnU3hhMm8xZmpSaktwVERjN3BQdUFxYlB5LTFKWjlxaEZtel9Td05ad0VJRFd4QVRiZ1NlLWc?oc=5">中国审查制度渗入美国 AI 输出</a><span class="muted"> 8/10</span></td>
+          <td>优先研究</td>
+          <td>贴近 AI 应用工程、RAG/Agent、实习项目或可输出主题。</td>
+        </tr><tr>
+          <td><span class="grade grade-a">A</span></td>
+          <td><a href="https://arxiv.org/abs/2608.11215">通过低参数代理模型在笔记本电脑上模拟大规模 LLM 智能体社会</a><span class="muted"> 8/10</span></td>
+          <td>优先研究</td>
+          <td>贴近 AI 应用工程、RAG/Agent、实习项目或可输出主题。</td>
+        </tr><tr>
+          <td><span class="grade grade-a">A</span></td>
+          <td><a href="https://arxiv.org/abs/2608.11216">AutoWorldModel-Bench：将 AI 智能体作为自主世界模型研究者的基准测试</a><span class="muted"> 8/10</span></td>
+          <td>优先研究</td>
+          <td>贴近 AI 应用工程、RAG/Agent、实习项目或可输出主题。</td>
+        </tr><tr>
+          <td><span class="grade grade-a">A</span></td>
+          <td><a href="https://arxiv.org/abs/2608.11218">MaSRead 实现复制潜在存储中的内容寻址读取</a><span class="muted"> 8/10</span></td>
+          <td>优先研究</td>
+          <td>贴近 AI 应用工程、RAG/Agent、实习项目或可输出主题。</td>
+        </tr><tr>
+          <td><span class="grade grade-a">A</span></td>
+          <td><a href="https://research.google/blog/empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality/">召回而非存储是 LLM 事实性的瓶颈</a><span class="muted"> 8/10</span></td>
+          <td>优先研究</td>
+          <td>贴近 AI 应用工程、RAG/Agent、实习项目或可输出主题。</td>
+        </tr></tbody>
+  </table></div>
 </section><section class="section">
   <div class="section-head"><h2>Obsidian 复盘与证据</h2></div>
-  <div class="empty">每日简报还没有填写。建议回到 Obsidian 补：今天最重要 3 条、进入知识库、明天继续跟进。</div>
+  <div class="empty">每日简报还没有填写。建议回到 Obsidian 补：今天最重要 3 条、进入知识库、明天继续跟进。</div><div class="source-row"><span>Horizon 日报</span></div>
 </section><section class="section">
   <div class="section-head"><h2>当天更新过的学习笔记</h2></div>
   <div class="empty">公开版不包含私人 Obsidian 笔记路径。</div>
